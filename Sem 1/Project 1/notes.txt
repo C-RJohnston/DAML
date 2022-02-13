@@ -1,0 +1,9 @@
+build a model designed off the microboone model, fairly accurate but also very slow. Will need to use a faster model to perform a hyperparameter
+search.
+Halved the number of layers and then doubled each filters
+muons and electrons are often confused for one another which makes sense because muons and electrons are both leptons and therefore
+similar patterns
+photons are often predicted for pions and protons as these decays produce photons and photon pair production can produce
+Pions are rarely incorrectly predicted as pions have a distinguishing kink that the others don't and the model can easily train on that.
+
+Doing a combination of hyperparameter training and manual tuning using a similar model to the microboone model
