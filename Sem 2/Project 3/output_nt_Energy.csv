@@ -1,0 +1,9 @@
+#class tools::wcsv::ntuple
+#title Deposited energy
+#separator 44
+#vector_separator 59
+#column double Generated
+#column double Magnetic field
+#column double Inner Detector
+#column double Outer Detector
+200,0.0001,0,6.14941
