@@ -1,6 +1,7 @@
 #include "RunAction.h"
 
 #include "g4csv.hh"
+#include "Consts.h"
 
 RunAction::RunAction() : G4UserRunAction()
 {
@@ -12,8 +13,12 @@ RunAction::RunAction() : G4UserRunAction()
   analysisManager->CreateNtuple( "Energy", "Deposited energy");
   analysisManager->CreateNtupleDColumn( "Generated" );
   analysisManager->CreateNtupleDColumn("Magnetic field");
-  analysisManager->CreateNtupleDColumn("Inner Detector");
-  analysisManager->CreateNtupleDColumn("Outer Detector");
+  // Add a column for each layer of the detector
+  int numLayers = (int) radius / detectorRingWidth;
+  for(int layer = 1; layer<=numLayers; layer++)
+  {
+    analysisManager->CreateNtupleDColumn("Detector"+std::to_string(layer));
+  }
   analysisManager->FinishNtuple();
 }
 

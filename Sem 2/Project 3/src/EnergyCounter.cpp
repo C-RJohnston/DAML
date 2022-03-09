@@ -41,5 +41,5 @@ void EnergyCounter::EndOfEvent( G4HCofThisEvent* )
   auto analysisManager = G4AnalysisManager::Instance();
 
   // Fill ntuple (ntuple 0, column by layer ID)
-  analysisManager->FillNtupleDColumn( 0, m_ID, m_totalEnergy );
+  analysisManager->FillNtupleDColumn( 0, m_ID+1, m_totalEnergy );
 }

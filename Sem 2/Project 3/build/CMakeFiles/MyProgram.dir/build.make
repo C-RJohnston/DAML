@@ -60,93 +60,93 @@ include CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.o: ../src/ActionInitialization.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/s1711493/DAML/Sem 2/Project 3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/ActionInitialization.cpp"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/ActionInitialization.cpp"
 
 CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/ActionInitialization.cpp" > CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/ActionInitialization.cpp" > CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.i
 
 CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/ActionInitialization.cpp" -o CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/ActionInitialization.cpp" -o CMakeFiles/MyProgram.dir/src/ActionInitialization.cpp.s
 
 CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o: ../src/DetectorConstruction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/s1711493/DAML/Sem 2/Project 3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/DetectorConstruction.cpp"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/DetectorConstruction.cpp"
 
 CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/DetectorConstruction.cpp" > CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/DetectorConstruction.cpp" > CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.i
 
 CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/DetectorConstruction.cpp" -o CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/DetectorConstruction.cpp" -o CMakeFiles/MyProgram.dir/src/DetectorConstruction.cpp.s
 
 CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.o: ../src/EnergyCounter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/s1711493/DAML/Sem 2/Project 3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/EnergyCounter.cpp"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/EnergyCounter.cpp"
 
 CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/EnergyCounter.cpp" > CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/EnergyCounter.cpp" > CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.i
 
 CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/EnergyCounter.cpp" -o CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/EnergyCounter.cpp" -o CMakeFiles/MyProgram.dir/src/EnergyCounter.cpp.s
 
 CMakeFiles/MyProgram.dir/src/EventAction.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/EventAction.cpp.o: ../src/EventAction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/s1711493/DAML/Sem 2/Project 3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProgram.dir/src/EventAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/EventAction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/EventAction.cpp"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/EventAction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/EventAction.cpp"
 
 CMakeFiles/MyProgram.dir/src/EventAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/src/EventAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/EventAction.cpp" > CMakeFiles/MyProgram.dir/src/EventAction.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/EventAction.cpp" > CMakeFiles/MyProgram.dir/src/EventAction.cpp.i
 
 CMakeFiles/MyProgram.dir/src/EventAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/src/EventAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/EventAction.cpp" -o CMakeFiles/MyProgram.dir/src/EventAction.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/EventAction.cpp" -o CMakeFiles/MyProgram.dir/src/EventAction.cpp.s
 
 CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.o: ../src/GeneratorAction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/s1711493/DAML/Sem 2/Project 3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/GeneratorAction.cpp"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/GeneratorAction.cpp"
 
 CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/GeneratorAction.cpp" > CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/GeneratorAction.cpp" > CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.i
 
 CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/GeneratorAction.cpp" -o CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/GeneratorAction.cpp" -o CMakeFiles/MyProgram.dir/src/GeneratorAction.cpp.s
 
 CMakeFiles/MyProgram.dir/src/RunAction.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/RunAction.cpp.o: ../src/RunAction.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/s1711493/DAML/Sem 2/Project 3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyProgram.dir/src/RunAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/RunAction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/RunAction.cpp"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/RunAction.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/RunAction.cpp"
 
 CMakeFiles/MyProgram.dir/src/RunAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/src/RunAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/RunAction.cpp" > CMakeFiles/MyProgram.dir/src/RunAction.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/RunAction.cpp" > CMakeFiles/MyProgram.dir/src/RunAction.cpp.i
 
 CMakeFiles/MyProgram.dir/src/RunAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/src/RunAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/RunAction.cpp" -o CMakeFiles/MyProgram.dir/src/RunAction.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/RunAction.cpp" -o CMakeFiles/MyProgram.dir/src/RunAction.cpp.s
 
 CMakeFiles/MyProgram.dir/src/main.cpp.o: CMakeFiles/MyProgram.dir/flags.make
 CMakeFiles/MyProgram.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/s1711493/DAML/Sem 2/Project 3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyProgram.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/main.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/main.cpp"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProgram.dir/src/main.cpp.o -c "/home/s1711493/DAML/Sem 2/Project 3/src/main.cpp"
 
 CMakeFiles/MyProgram.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/main.cpp" > CMakeFiles/MyProgram.dir/src/main.cpp.i
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/s1711493/DAML/Sem 2/Project 3/src/main.cpp" > CMakeFiles/MyProgram.dir/src/main.cpp.i
 
 CMakeFiles/MyProgram.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/main.cpp" -o CMakeFiles/MyProgram.dir/src/main.cpp.s
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/s1711493/DAML/Sem 2/Project 3/src/main.cpp" -o CMakeFiles/MyProgram.dir/src/main.cpp.s
 
 # Object files for target MyProgram
 MyProgram_OBJECTS = \

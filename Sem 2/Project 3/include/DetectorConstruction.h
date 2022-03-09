@@ -13,10 +13,11 @@ class DetectorConstruction : public G4VUserDetectorConstruction
 
     G4VPhysicalVolume* Construct() override;
     void ConstructSDandField() override;
-
+    
   private:
     // Global magnetic field messenger
     static G4ThreadLocal G4GlobalMagFieldMessenger* m_magneticFieldMessenger;
+    int layerNum;
 };
 
 #endif

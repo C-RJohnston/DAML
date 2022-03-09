@@ -3,9 +3,7 @@
 
 #include "G4VUserPrimaryGeneratorAction.hh"
 #include "G4ParticleGun.hh"
-#include <G4UniformMagField.hh>
-#include <G4FieldManager.hh>
-#include <G4TransportationManager.hh>
+
 
 // Generate a single particle and fire it into our experiment
 class GeneratorAction : public G4VUserPrimaryGeneratorAction
@@ -18,8 +16,8 @@ class GeneratorAction : public G4VUserPrimaryGeneratorAction
 
   private:
     G4ParticleGun* m_particleGun;
-    G4UniformMagField *magField;
     int runCounter;
+    class G4GlobalMagFieldMessenger* m_fieldManager;
 };
 
 #endif
