@@ -45,4 +45,4 @@
 # Don't forget to re-run the experiment after the changes!
 #     /run/beamOn 20
  /gun/particle gamma
- /run/beamOn 10000
+ /run/beamOn 100000

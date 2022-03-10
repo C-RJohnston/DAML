@@ -4,4 +4,4 @@
 /gun/energy 200 MeV
 /run/beamOn 0
 /gun/particle gamma
-/run/beamOn 10000
+/run/beamOn 100000

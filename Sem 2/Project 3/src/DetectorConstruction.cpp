@@ -38,8 +38,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4Material* silicon = nistManager->FindOrBuildMaterial("G4_Si");
 
   // Sizes of the principal geometrical components (solids)
-  G4double absorberThickness = 2.0*cm;
-  G4double detectorThickness = 1.0*cm;
+  G4double absorberThickness = 0.1*cm;
+  G4double detectorThickness = 5.0*cm;
   G4double worldLength = 250.0*cm;
 
   // Definitions of Solids, Logical Volumes, Physical Volumes
@@ -79,7 +79,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     absorberThickness, // how much material in the beam path (half length)
     0.0*deg,           // starting angle
     360.0*deg );       // ending angle (i.e. it's a full circle)
-  
+
   // ABSORBER: Logical volume (how to treat it)
   G4LogicalVolume* absorberLV = new G4LogicalVolume(
     absorberS,         // its solid
@@ -88,21 +88,21 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     0, 0, 0 );         // Modifiers we don't use
   G4VisAttributes* absorberVisAtt = new G4VisAttributes(G4Colour(131.0/255.0, 136.0/255.0, 145.0/255.0));
   absorberLV -> SetVisAttributes(absorberVisAtt);
-  
+
   // ABSORBER: Physical volume (where is it)
   G4VPhysicalVolume* absorberPV = new G4PVPlacement(
     0,                 // no rotation
-    G4ThreeVector(0,0,-absorberThickness*2),  // where is it
+    G4ThreeVector(0,0,-(detectorThickness+absorberThickness)),  // where is it
     absorberLV,        // its logical volume
     "Absorber",      // its name
     worldLV,           // its mother volume
     false,             // no boolean operations
     0,                 // copy number
     true );            // checking overlaps
-  
+
   // ABSORBER: Quit if there's an overlap
   if ( absorberPV->CheckOverlaps() ) std::cerr << "WARNING: your simulated objects overlap" << std::endl;
-  
+
   layerNum = 0;
   // Detector
   for(G4double outerRadius = detectorRingWidth;
@@ -117,7 +117,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
       detectorThickness,
       0.0*deg,
       360.0*deg);
-    
+
     G4LogicalVolume* detectorLV = new G4LogicalVolume(
       detectorS,
       silicon,
@@ -127,7 +127,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                                                                   outerRadius/radius,
                                                                   outerRadius/radius));
     detectorLV-> SetVisAttributes(detectorVisAtt);
-    
+
     G4VPhysicalVolume* detectorPV = new G4PVPlacement(
       0,
       G4ThreeVector(0,0,0),
@@ -137,11 +137,11 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
       false,
       0,
       true);
-    
+
     // DETECTOR: Warn if there's an overlap
     if ( detectorPV->CheckOverlaps() ) std::cerr << "WARNING: your simulated objects overlap" << std::endl;
   }
-  
+
   // Always return the physical world
   return worldPV;
 }
