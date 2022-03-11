@@ -5,7 +5,7 @@
 #include "G4SystemOfUnits.hh"
 #include "tls.hh"
 
-static const G4double radius = 75*cm;
-static const G4double detectorRingWidth = 2.0*cm;
+static const G4double radius = 100*cm;
+static const G4double detectorRingWidth = 1.0*cm;
 
 #endif
