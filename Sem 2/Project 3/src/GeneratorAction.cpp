@@ -46,13 +46,13 @@ void GeneratorAction::GeneratePrimaries( G4Event* anEvent )
 
   // After a number of particles fired, increase energy and mag field
   runCounter++;
-  if(runCounter % 100 == 0)
+  if(runCounter % 10 == 0)
   {
     // every 10, increase the magnetic field
     m_fieldManager->SetFieldValue(G4ThreeVector(fieldStrength+=0.01*tesla,0,0));
 
   }
-  if(runCounter % 500 == 0)
+  if(runCounter % 1000 == 0)
   {
     //every 100, increase the electric field and reset the magnetic field
     m_particleGun->SetParticleEnergy(particleEnergy+=10.0*MeV);
